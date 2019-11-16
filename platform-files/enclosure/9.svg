@@ -7,8 +7,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="18.125in"
-   height="5.5in"
+   width="19in"
+   height="5.75in"
    version="1.1"
    id="svg23"
    sodipodi:docname="9.svg"
@@ -45,7 +45,7 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1452"
+     inkscape:window-width="1440"
      inkscape:window-height="777"
      id="namedview25"
      showgrid="false"
@@ -53,8 +53,8 @@
      inkscape:measure-end="129.436,60.6734"
      inkscape:zoom="0.6180637"
      inkscape:cx="952.25028"
-     inkscape:cy="393.94904"
-     inkscape:window-x="-7"
+     inkscape:cy="369.14012"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="Tue Jul 30 12:24:42 2019"
@@ -63,10 +63,10 @@
   <g
      inkscape:groupmode="layer"
      id="Tue Jul 30 12:24:42 2019"
-     transform="translate(-104.55839,-211.79432)">
+     transform="translate(-104.55839,-187.79432)">
     <g
        id="render_body.005"
-       transform="matrix(1.891626,0,0,1.891626,-24.136243,-624.03303)"
+       transform="matrix(1.891626,0,0,1.891626,-24.136243,-644.03303)"
        style="fill:none;stroke:#ff0000;stroke-opacity:1">
       <!-- start render_body.005 -->
       <g
@@ -74,7 +74,7 @@
          style="fill:none;stroke:#ff0000;stroke-opacity:1">
         <path
            style="opacity:0.9;fill:none;stroke:#ff0000;stroke-opacity:1"
-           d="M 68.033868,499.2945 V 446.3032 H 213.2737 326.1725 l 67.8457,45.37722 h 203.5372 l 83.3144,-29.90872 h 291.7946 14.62255 v 37.5228 l 10e-5,158.2495 H 225.81559 l 0,63.4375 H 68.033868 Z"
+           d="m 68.033868,499.2945 v -52.9913 h 187.531492 112.8988 l 67.8457,45.37722 h 203.5372 l 83.3144,-29.90872 h 291.79464 14.6225 v 37.5228 l 10e-5,158.2495 H 268.10725 v 74.01041 H 68.033868 Z"
            id="polygon18"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ccccccccccccccc" />
@@ -83,7 +83,7 @@
     <!-- end render_body.005 -->
     <g
        id="g130"
-       transform="matrix(0.79999946,0,0,0.79999946,1476.9769,436.03929)">
+       transform="matrix(0.79999946,0,0,0.79999946,1556.9769,416.03929)">
       <title
          id="title126">Layer 1</title>
       <g
@@ -96,7 +96,7 @@
       </g>
     </g>
     <g
-       transform="matrix(4.1241515,0,0,-4.1241515,1447.2017,479.67082)"
+       transform="matrix(4.1241515,0,0,-4.1241515,1527.2017,459.67082)"
        id="g10"
        style="fill:#808080;fill-opacity:1">
       <g
@@ -121,30 +121,33 @@
     </g>
     <path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.48000056;stroke-opacity:1"
-       d="m 140.63838,248.36572 a 7.9199996,7.9199996 0 0 1 -7.92,7.92 7.9199996,7.9199996 0 0 1 -7.92,-7.92 7.9199996,7.9199996 0 0 1 7.92,-7.92 7.9199996,7.9199996 0 0 1 7.92,7.92 z"
+       d="m 140.63838,228.36572 c 0,4.3741 -3.5459,7.92 -7.92,7.92 -4.3741,0 -7.92,-3.5459 -7.92,-7.92 0,-4.3741 3.5459,-7.92 7.92,-7.92 4.3741,0 7.92,3.5459 7.92,7.92 z"
        id="path33"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss" />
     <path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.48000056;stroke-opacity:1"
-       d="m 140.63838,711.63428 a 7.9199996,7.9199996 0 0 1 -7.92,7.92 7.9199996,7.9199996 0 0 1 -7.92,-7.92 7.9199996,7.9199996 0 0 1 7.92,-7.92 7.9199996,7.9199996 0 0 1 7.92,7.92 z"
+       d="m 140.63838,711.63428 c 0,4.3741 -3.5459,7.92 -7.92,7.92 -4.3741,0 -7.92,-3.5459 -7.92,-7.92 0,-4.3741 3.5459,-7.92 7.92,-7.92 4.3741,0 7.92,3.5459 7.92,7.92 z"
        id="circle52"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss" />
     <path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.48000056;stroke-opacity:1"
-       d="m 1833.2016,277.55429 a 7.9199996,7.9199996 0 0 1 -7.92,7.92 7.9199996,7.9199996 0 0 1 -7.92,-7.92 7.9199996,7.9199996 0 0 1 7.92,-7.92 7.9199996,7.9199996 0 0 1 7.92,7.92 z"
+       d="m 1913.2016,257.55429 c 0,4.3741 -3.5459,7.92 -7.92,7.92 -4.3741,0 -7.92,-3.5459 -7.92,-7.92 0,-4.3741 3.5459,-7.92 7.92,-7.92 4.3741,0 7.92,3.5459 7.92,7.92 z"
        id="circle54"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss" />
     <path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.48000056;stroke-opacity:1"
-       d="m 1833.2016,591.63428 a 7.9199996,7.9199996 0 0 1 -7.92,7.92 7.9199996,7.9199996 0 0 1 -7.92,-7.92 7.9199996,7.9199996 0 0 1 7.92,-7.92 7.9199996,7.9199996 0 0 1 7.92,7.92 z"
+       d="m 1913.2016,571.63428 c 0,4.3741 -3.5459,7.92 -7.92,7.92 -4.3741,0 -7.92,-3.5459 -7.92,-7.92 0,-4.3741 3.5459,-7.92 7.92,-7.92 4.3741,0 7.92,3.5459 7.92,7.92 z"
        id="circle72"
-       inkscape:connector-curvature="0" />
-    <rect
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss" />
+    <path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2.59936142;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 463.87405,363.20602 H 1890.1387 V 581.40666 H 463.87405 Z"
        id="rect39"
-       width="1426.2646"
-       height="218.20064"
-       x="383.87405"
-       y="383.20602" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>
