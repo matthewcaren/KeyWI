@@ -1,2 +1,2 @@
-# wind-instrument-platform
-a development platform for realistic and expressive electronic wind instruments
+# the KeyWI
+an expressive and accessible electronic wind instrument & wind instrument development platform
