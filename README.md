@@ -1,2 +1,2 @@
 # the KeyWI
-an expressive and accessible electronic wind instrument & wind instrument development platform
+an expressive and accessible electronic wind instrument
