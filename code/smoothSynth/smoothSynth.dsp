@@ -11,7 +11,7 @@ pressure = readpressure : si.smooth(0.999) : max(0);
 breath = (readpressure - .05) / (1-sensitivity) : si.smooth(0.99995) : max(0);
 
 
-lfo = os.osc(7)*(breath-1.2 : max(0))*25;
+lfo = os.osc(7)*(breath-1.2 : max(0))*2;
 
 osc = os.triangle(freq+lfo) + os.triangle(freq*4 + lfo)*(0.2 + breath*breath*0.5) + os.triangle(freq*2 + lfo)*breath*0.7;
 

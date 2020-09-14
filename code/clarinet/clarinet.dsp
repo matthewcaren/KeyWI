@@ -9,7 +9,7 @@ offset = hslider("offset[BELA: ANALOG_5]", 0.1, 0, 0.4, 0.01) : si.smoo;
 
 pressure = readpressure : si.smooth(0.99988) : max(0);
 pGate = gate : en.ar(0.03, 0.3)*pressure*(pressure - 0.3 : max(0))*3;
-breath = (readpressure + pGate - .05) / (1-sensitivity) : si.smooth(0.996) : max(0);
+breath = (readpressure + pGate - .05) / (1-sensitivity) : si.smooth(0.996) : max(0) : min(1);
 
 //pb = hslider("pb[BELA: ANALOG_2]", 0, 0, 0.06, 0.001) - 0.035 : si.smooth(0.9999) : max(0);
 

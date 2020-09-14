@@ -11883,7 +11883,7 @@ class mydsp : public dsp {
 			int iTemp2 = (fRec18[0] < fConst7);
 			fRec22[0] = (fSlow16 + (0.999000013f * fRec22[1]));
 			fRec15[0] = ((0.995999992f * fRec15[1]) + (0.00400000019f * ((((3.0f * ((fTemp0 * (iTemp2 ? ((fRec18[0] < 0.0f) ? 0.0f : (iTemp2 ? (fConst9 * fRec18[0]) : 1.0f)) : ((fRec18[0] < fConst6) ? ((fConst8 * (0.0f - (fRec18[0] - fConst7))) + 1.0f) : 0.0f))) * std::max<float>(0.0f, (fTemp0 + -0.300000012f)))) + (-0.0500000007f - fRec17[0])) - fSlow8) / (1.0f - fRec22[0]))));
-			float fTemp3 = (std::max<float>(0.0f, fRec15[0]) * fTemp1);
+			float fTemp3 = (std::min<float>(1.0f, std::max<float>(0.0f, fRec15[0])) * fTemp1);
 			fRec13[0] = (fRec0[1] + fTemp3);
 			float fTemp4 = (0.0f - fRec13[1]);
 			fRec14[(IOTA & 2047)] = (fTemp3 + (fTemp4 * std::max<float>(-1.0f, std::min<float>(1.0f, (0.699999988f - (0.270999998f * fTemp4))))));

@@ -2,7 +2,7 @@
 #define NVOICES 6
 #define MIDICTRL
 /* ------------------------------------------------------------
-name: "octaveSynth"
+name: "octavesynth"
 Code generated with Faust 2.17.13 (https://faust.grame.fr)
 Compilation options: -lang cpp -scal -ftz 0
 ------------------------------------------------------------ */
@@ -11635,7 +11635,7 @@ class mydsp : public dsp {
 		m->declare("envelopes.lib/license", "LGPL with exception");
 		m->declare("envelopes.lib/name", "Faust Envelope Library");
 		m->declare("envelopes.lib/version", "0.0");
-		m->declare("filename", "octaveSynth.dsp");
+		m->declare("filename", "octavesynth.dsp");
 		m->declare("filters.lib/name", "Faust Filters Library");
 		m->declare("filters.lib/version", "0.0");
 		m->declare("maths.lib/author", "GRAME");
@@ -11643,7 +11643,7 @@ class mydsp : public dsp {
 		m->declare("maths.lib/license", "LGPL with exception");
 		m->declare("maths.lib/name", "Faust Math Library");
 		m->declare("maths.lib/version", "2.1");
-		m->declare("name", "octaveSynth");
+		m->declare("name", "octavesynth");
 		m->declare("oscillators.lib/name", "Faust Oscillator Library");
 		m->declare("oscillators.lib/version", "0.0");
 		m->declare("signals.lib/name", "Faust Signal Routing Library");
@@ -11798,7 +11798,7 @@ class mydsp : public dsp {
 	}
 	
 	virtual void buildUserInterface(UI* ui_interface) {
-		ui_interface->openVerticalBox("octaveSynth");
+		ui_interface->openVerticalBox("octavesynth");
 		ui_interface->declare(&fHslider2, "BELA", "ANALOG_0");
 		ui_interface->addHorizontalSlider("breath", &fHslider2, 0.0f, -1.35000002f, 1.0f, 0.00100000005f);
 		ui_interface->addHorizontalSlider("freq", &fHslider0, 400.0f, 20.0f, 20000.0f, 0.00999999978f);
@@ -11863,10 +11863,10 @@ class mydsp : public dsp {
 			fRec11[0] = ((fRec11[1] * fTemp13) + ((iTemp11 ? (iTemp12 ? fTemp14 : (0.100000001f * fTemp14)) : 0.0f) * (1.0f - fTemp13)));
 			fRec14[0] = (fSlow16 + (0.999000013f * fRec14[1]));
 			fRec15[0] = (fSlow18 + (0.999000013f * fRec15[1]));
-			fRec13[0] = ((0.999800026f * fRec13[1]) + (0.000199999995f * (((-0.0500000007f - fRec14[0]) - fSlow17) / (1.0f - fRec15[0]))));
-			float fTemp15 = std::tan((fConst6 * (((3000.0f * fRec11[0]) + (8000.0f * std::max<float>(0.0f, fRec13[0]))) + 20.0f)));
+			fRec13[0] = ((0.999949992f * fRec13[1]) + (4.99999987e-05f * (((-0.0500000007f - fRec14[0]) - fSlow17) / (1.0f - fRec15[0]))));
+			float fTemp15 = std::tan((fConst6 * (((3500.0f * fRec11[0]) + (8000.0f * std::max<float>(0.0f, fRec13[0]))) + 20.0f)));
 			float fTemp16 = (1.0f / fTemp15);
-			fRec1[0] = (((0.0399999991f * (fTemp10 + fVec0[1])) - (fRec1[1] * (1.0f - fTemp16))) / (fTemp16 + 1.0f));
+			fRec1[0] = (((0.0199999996f * (fTemp10 + fVec0[1])) - (fRec1[1] * (1.0f - fTemp16))) / (fTemp16 + 1.0f));
 			float fTemp17 = (((fTemp16 + 1.0f) / fTemp15) + 1.0f);
 			fRec0[0] = (fRec1[0] - (((fRec0[2] * (((fTemp16 + -1.0f) / fTemp15) + 1.0f)) + (2.0f * (fRec0[1] * (1.0f - (1.0f / mydsp_faustpower2_f(fTemp15)))))) / fTemp17));
 			float fTemp18 = ((fRec0[2] + (fRec0[0] + (2.0f * fRec0[1]))) / fTemp17);
