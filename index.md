@@ -16,16 +16,16 @@ For project files and code see the [project github](https://github.com/matthewca
   - 4x 1/2 in
   - 4x 1/4 in
  - 5x 3/16x0.25in binding posts
-- (If using batteries) 2x 2 AAA battery holder
+- (If using batteries) 2 2xAAA battery holders
 
 The mouthpiece and key mounts are 3D-printed—STL files for printing can be found in the project Github. Depending on the settings of the 3D printer, there may be a thin layer of plastic created about halfway down the mouthpiece; be sure to remove this layer, or else no pressure will reach the sensor. Also check that the small pinhole in the side of the mouthpiece is open and allows a small amount of air to pass through.
 
 
 ## Enclosure
 
-The enclosure is constructed by bolting together 9 laser-cut layers of 1/8-in material (in the original KeyWI design, we used birch plywood, but acrylic or MDF would work too). Laser-cutting files in SVG format are available here. 
+The enclosure is constructed by bolting together 9 laser-cut layers of 1/8-in material (in the original KeyWI design, we used birch plywood, but acrylic or MDF would work too). Laser-cutting files in SVG format are available [here](https://github.com/matthewcaren/KeyWI/tree/master/platform-files/enclosure). 
 
-After assembling the enclosure, place the key mounts flat on the inside of the enclosure; it should fit snugly. Mark the locations of the mounting holes and drill these holes into the bottom layer of the enclosure.
+Cut out all the layers, and check that the layers align when stacked. Remove all layers but the bottom two, and place the key mounts flat on the inside of the enclosure; it should fit snugly. Mark the locations of the mounting holes and drill these holes into the bottom layer.
 
 
 ## Electronics
@@ -37,8 +37,8 @@ Solder:
 - all components to the KeyWI PCB
 - on the bottom: all headers, the ribbon connector for the keyboard, the 1/8-in audio out jack
 - LED, resistors, pots, switches, button
-- (if using batteries)
-  - 2 battery holder leads to wire them in series
+- if using batteries:
+  - connect 2 battery holder leads to wire them together in series
   - a female header to the remaining 2 leads
 
 If you wish to use the KeyWI on battery power (rather than USB), cut P1.07 between the Bela cape and the PocketBeagle, and bend it out so that the connection is severed. Carefullly solder a wire between any VIN pin and P1.07 on the Bela. Pinouts for the Bela Mini can be found [here](https://i.imgur.com/2ek2zQc.png).
@@ -59,6 +59,6 @@ Place the next two layers of the enclosure onto the bottom layer. With the short
 
 Place all remaining layers of the enclosure (except for the cover) onto the KeyWI. Attach about 2 inches of vinyl tubing to one input of the pressure sensor. If the tube does not stay in place, wrap a thin piece of electrical tape around the outside of the input of the sensor to secure it. Attach the pressure sensor to the bottom of the KeyWI PCB via the female headers on the breakout board. With the long standoffs, attach the KeyWI PCB to the bottom layer adjacent to the other board, making sure that the vinyl tube attached to the pressure sensor is exposed on the outside of the KeyWI. If using batteries, place the 4 AAA rechargable batteries into the holders. Place the batteries in the box in the upper right of the KeyWI, and attach the leads to the appropriate header on the KeyWI board. If not using batteries, attach a USB cable to the BeagleBone, and feed the other end of the USB cable out of the enclosure in the same opening as the audio out jack. The KeyWI can be power through USB with any standard USB power supply.
 
-Place the cover layer onto the top of the KeyWI. Using 5 bolts, fasten the KeyWI’s enclosure together. On the bottom of each nut, we also recommend placing an adhesive rubber bumper as to not scratch the surface of any table it is resting on.
+Place the cover layer onto the top of the KeyWI. Using five 1 5/8 in long bolts, fasten the KeyWI’s enclosure together. On the bottom of each nut, we also recommend placing adhesive rubber bumpers as to not scratch the surface of any table it is resting on.
 
 Hooray! You're done!
