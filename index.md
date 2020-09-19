@@ -18,7 +18,7 @@ For project files and code see the [project github](https://github.com/matthewca
  - 5x 3/16x0.25in binding posts
 - (If using batteries) 2 2xAAA battery holders
 
-The mouthpiece and key mounts are 3D-printed—STL files for printing can be found in the project Github. Depending on the settings of the 3D printer, there may be a thin layer of plastic created about halfway down the mouthpiece; be sure to remove this layer, or else no pressure will reach the sensor. Also check that the small pinhole in the side of the mouthpiece is open and allows a small amount of air to pass through.
+The mouthpiece and key mounts are 3D-printed. STL files for printing can be found in the [project github](https://github.com/matthewcaren/KeyWI/tree/master/platform-files). Depending on the settings of the 3D printer, there may be a thin layer of plastic created about halfway down the mouthpiece; be sure to remove this layer, or else no pressure will reach the sensor. Also check that the small pinhole in the side of the mouthpiece is open and allows a small amount of air to pass through.
 
 
 ## Enclosure
